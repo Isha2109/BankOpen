@@ -16,10 +16,10 @@ background-image: url("../../assets/circle.svg");
 margin-top: -400px;
 opacity: 1;
 transform: matrix(0.12, -0.99, 0.99, 0.12, 0, 0);
-margin-left: 600px;
+margin-left: 590px;
 background-size: 95%;
 background-repeat: no-repeat;
-width: 110%;
+width: 115%;
 height: 110%;
 image-resolution: 40%;
 }
@@ -52,15 +52,74 @@ width: 407px;
 height: 98px;
 }
 .simple1{
-  background-image: url("../../assets/simple.svg");
-  margin-left: 3%;
-  margin-top: -90%;
-width: 80%;
+background-image: url("../../assets/simple.svg");
+margin-left: 24%;
+margin-top: -163%;
+width: 190%;
 height: 80%;
 background-repeat: no-repeat;
-background-size: 90%;
+background-size: 110%;
 image-resolution: 40%;
 background: transparent 0% 0% no-repeat padding-box;
 opacity: 1;
-
+}
+.line{
+  margin-top: 2.5%;
+}
+.line1{
+  margin-left: 92px;
+  opacity: 0.7;
+  height: 60px;
+  width: 450px;
+  border-radius: 13px;
+  max-zoom: 490%;
+  background: 0% 0% no-repeat padding-box;
+}
+.hands1{
+  margin-left: 4.4%;
+  margin-top: 5%;
+  z-index: 999999;
+  position: relative;
+}
+.dots1{
+  margin-left: 20%;
+  margin-top: -2.5%;
+}
+.dots2{
+  margin-left: 71%;
+  margin-top: 2%;
+}
+.calci1{
+  margin-top: -50.5%;
+  margin-left: 49%;
+  z-index: 1;
+  position: relative;
+}
+.cash{
+  margin-top: -15.5%;
+  margin-left: 4.3%;
+}
+.quicktext{
+  margin-left: 4.1%;
+  margin-top: 9px;
+}
+.hover-overlay{
+  background-color: #F9F9F9;
+  box-shadow: 0px 0px 30px #2321321F;
+border: 1px solid #FFFFFF;
+border-radius: 20px;
+opacity: 100%;
+border-color: #FFFFFF;
+width: 391px;
+ height: 276px;
+ top: 1450px;
+ margin-left: 191px
+}
+.hover-overlay:hover{
+  background-color: #9F62C9;
+    opacity: .5;
+}
+.terms{
+  margin-left: 4.1%;
+  margin-top: 3px;
 }

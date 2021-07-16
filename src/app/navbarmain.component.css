@@ -100,3 +100,6 @@ opacity: 1;
 .navbar-fixed-top{
   background:transparent;
 }
+.navbar-collapse{
+  z-index: 1;
+}
