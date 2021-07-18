@@ -162,6 +162,10 @@ margin-bottom: 1px;
 margin-right: 4%;
 font-size: 19px;
 z-index: 1;
+color: #777777;
+}
+.terms1:hover{
+  color: white;
 }
 .quicktext1{
   margin-left: 6%;
@@ -198,7 +202,12 @@ margin-bottom: 1px;
 margin-right: 4%;
 font-size: 19px;
 z-index: 1;
+color: #777777;
 }
+.terms2:hover{
+  color: white;
+}
+
 .quicktext2{
   margin-left: 6%;
   font-family: Montserrat-SemiBold;
@@ -242,4 +251,46 @@ image-resolution: 40%;
 }
 .quickcash1{
   margin-bottom: 3%;
+}
+.boost{
+  color: #222222;
+  font-size: 57px;
+  top: 1377px;
+left: 1158px;
+width: 490px;
+height: 98px;
+opacity: 1;
+margin-left: 60%;
+margin-top: -64%;
+}
+.crafted{
+  color: #777777;
+  font-size: 22px;
+  top: 1561px;
+left: 1158px;
+width: 490px;
+height: 44px;
+opacity: 1;
+margin-left: 60%;
+margin-top: 11%;
+}
+.accountOpen{
+  margin-left: 61%;
+  margin-top: 5%;
+}
+.btn-success{
+  text-align: center;
+letter-spacing: 0px;
+color: #663399;
+opacity: 1;
+box-shadow: 0px 0px 20px #00000033;
+border: 2px solid #663399;
+border-radius: 24px;
+opacity: 1;
+background-color: #FFFFFF !important;
+height: 48px;
+}
+.btn-success:hover{
+  background-color: #663399 !important;
+  color: white;
 }
