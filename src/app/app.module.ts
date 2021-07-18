@@ -5,7 +5,6 @@ import { AppComponent } from './app.component';
 import { MainformComponent } from './mainform/mainform.component';
 import { navBarMainComponent } from './navbarmain.component';
 import { HttpClientModule} from '@angular/common/http';
-
 @NgModule({
   declarations: [
     AppComponent,
