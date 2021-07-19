@@ -1,6 +1,6 @@
 <navbarmain></navbarmain>
 
-<div class="main">
+<div class="main" id="wrapper">
   <div class="right">
       <div class="right1">
 
@@ -72,7 +72,7 @@
                 <div class="textRange">
                 <input class="rangetext2" name="ExpenseInput" value="0" oninput="this.form.ExpenseAmt.value=this.value" />
                 <br/>
-                <input class="range2" type="range" id="formRange2" name="ExpenseAmt" min="10" max="3000000" value="15000" oninput="this.form.ExpenseInput.value=this.value" />
+                <input class="range2" type="range" id="formRange2" name="ExpenseAmt" min="0" max="150000" value="15000" oninput="this.form.ExpenseInput.value=this.value" />
                 </div>
               </form>
             </div>
@@ -81,10 +81,10 @@
               <label class="repay" for="cars">Repayment Tenure</label>
               <br/>
               <select class="tenureselect" name="time" id="time">
-                <option value="volvo">6 Months</option>
-                <option value="saab">1 Year</option>
-                <option value="mercedes">3 Years</option>
-                <option value="audi">5 Years</option>
+                <option value="6months">6 Months</option>
+                <option value="1year">1 Year</option>
+                <option value="3year">3 Years</option>
+                <option value="5year">5 Years</option>
               </select>
               <div class="line4"></div>
             </div>

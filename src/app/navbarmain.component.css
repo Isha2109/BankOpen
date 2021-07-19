@@ -92,6 +92,7 @@ opacity: 1;
 }
 .navbar1{
   background-color: white;
+  z-index: 1;
 }
 .navbar-default{
   background:none;
